@@ -15,7 +15,7 @@ public class ConnectionSQL {
 
         String url = "jdbc:mysql://localhost:3306/starwars?serverTimezone=GMT";
         String utilisateur = "root";
-        String motDePasse = "Manzana33!";
+        String motDePasse = "root";
         Connection connexion = null;
 
         connexion = DriverManager.getConnection( url, utilisateur, motDePasse );
