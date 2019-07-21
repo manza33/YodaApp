@@ -3,10 +3,10 @@
 
 <html>
 <head>
-    <title>List of Masters Jedi</title>
+    <title>Liste des Maitres Jedi</title>
 </head>
 <body>
-List des Maitres Jedi</br>
+Liste des Maitres Jedi</br>
     <ul>
         <c:forEach items="${listJedis}" var="masterJedi">
             <li> ${masterJedi} </br> </li>
